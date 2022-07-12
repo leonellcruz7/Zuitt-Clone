@@ -10,7 +10,7 @@ export default function MyPackage() {
     const [packages, setPackages] = useState([])
     useEffect(() => {
 
-        fetch('http://localhost:4000/users/getEnrolled', {
+        fetch('https://zuitt-clone-backend.herokuapp.com/users/getEnrolled', {
             method: 'GET',
             headers: {
                 Authorization: `Bearer ${localStorage.getItem('token')}`

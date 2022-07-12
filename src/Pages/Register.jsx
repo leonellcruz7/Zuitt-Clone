@@ -34,7 +34,7 @@ export default function Register() {
     })
 
     useEffect(() => {
-        fetch('http://localhost:4000/users/checkEmail', {
+        fetch('https://zuitt-clone-backend.herokuapp.com/users/checkEmail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -57,7 +57,7 @@ export default function Register() {
 
     function register(e) {
         e.preventDefault()
-        fetch('http://localhost:4000/users/register', {
+        fetch('https://zuitt-clone-backend.herokuapp.com/users/register', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'

@@ -8,7 +8,7 @@ export default function Courses() {
     const [courses, setCourses] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:4000/courses/all', {
+        fetch('https://zuitt-clone-backend.herokuapp.com/courses/all', {
             method: 'GET'
         }).then(res => res.json()).then(data => {
             console.log(data)

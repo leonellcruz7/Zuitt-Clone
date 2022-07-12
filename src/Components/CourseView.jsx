@@ -7,7 +7,7 @@ export default function CourseView({ packageProp }) {
     function enroll(e) {
         e.preventDefault()
 
-        fetch('http://localhost:4000/users/enroll', {
+        fetch('https://zuitt-clone-backend.herokuapp.com/users/enroll', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

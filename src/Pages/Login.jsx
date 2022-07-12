@@ -25,7 +25,7 @@ export default function Login() {
     function login(e) {
         e.preventDefault()
 
-        fetch('http://localhost:4000/users/login', {
+        fetch('https://zuitt-clone-backend.herokuapp.com/users/login', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -41,7 +41,7 @@ export default function Login() {
             }
             else {
                 localStorage.setItem('token', data.access)
-                fetch('http://localhost:4000/users/details', {
+                fetch('https://zuitt-clone-backend.herokuapp.com/users/details', {
                     method: 'GET',
                     headers: {
                         Authorization: `Bearer ${data.access}`

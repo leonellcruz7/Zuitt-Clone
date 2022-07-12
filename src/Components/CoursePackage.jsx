@@ -10,7 +10,7 @@ export default function CoursePackage() {
     const { courseId } = useParams()
 
     useEffect(() => {
-        fetch('http://localhost:4000/packages/getPackage', {
+        fetch('https://zuitt-clone-backend.herokuapp.com/packages/getPackage', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -30,7 +30,7 @@ export default function CoursePackage() {
     }, [])
 
     useEffect(() => {
-        fetch('http://localhost:4000/courses/getCourse', {
+        fetch('https://zuitt-clone-backend.herokuapp.com/courses/getCourse', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
