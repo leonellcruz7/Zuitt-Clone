@@ -1,0 +1,27 @@
+.courses {
+    padding: 20px 0;
+}
+
+.courses .content {
+    padding-left: 200px;
+    text-align: end;
+    margin: 40px 0;
+}
+
+.courses .content p {
+    font-size: 16px;
+}
+
+.courses .left {
+    justify-content: start;
+    padding-left: 20px;
+}
+
+.courses .right {
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.courses .card-details {
+    margin: 60px 0;
+}

@@ -1,0 +1,26 @@
+.keys {
+    background: rgb(186, 195, 206);
+}
+
+.keys .col1 {
+    margin-top: 40px
+}
+
+.keys .col4 {
+    margin: 40px 0;
+}
+
+.keys .card {
+    padding: 40px;
+    margin: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 400px;
+}
+
+.keys .card img {
+    margin: 30px 0;
+}

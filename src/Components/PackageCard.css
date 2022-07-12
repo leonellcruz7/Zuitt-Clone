@@ -1,0 +1,27 @@
+.packCard {
+    background-color: rgb(169, 179, 194);
+    flex-basis: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.packCard .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.packCard h4 {
+    margin: 0;
+}
+
+.packCard .btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.packCard button {
+    border-radius: 5px;
+    box-shadow: none;
+}

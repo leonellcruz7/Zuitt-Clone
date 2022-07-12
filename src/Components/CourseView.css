@@ -1,0 +1,49 @@
+.courseViewCard {
+    padding: 20px 20px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .1s ease;
+}
+
+.courseViewCard:hover {
+    background-color: rgb(236, 236, 220);
+    box-shadow: 0px 0px 9px -1px rgba(250, 236, 57, 0.2);
+    transform: scale(1.02);
+}
+
+.courseViewCard h1 {
+    font-family: 'Bree Serif', serif;
+    line-height: 30px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.courseViewCard p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.courseViewCard h5 {
+    padding: 10px 0;
+}
+
+.courseViewCard .enrollBtn {
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: rgb(35, 125, 243);
+}
+
+.courseViewCard .enrollBtn:hover {
+    transform: scale(1.03);
+    background-color: rgb(9, 95, 209)
+}
+
+.courseViewCard .divider {
+    margin: 20px 0;
+    width: 70%;
+}

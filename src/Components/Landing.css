@@ -1,0 +1,21 @@
+.landing {
+    background: rgb(186, 195, 206);
+}
+
+.landing h2 {
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    margin: 15px 0;
+}
+
+.landing p {
+    margin: 15px 0;
+}
+
+.landing button {
+    margin: 15px 0;
+}
+
+.landing .col2 {
+    padding: 0 50px;
+}

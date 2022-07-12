@@ -1,0 +1,18 @@
+.coursecard {
+    justify-content: start;
+    align-items: start;
+}
+
+.coursecard h4 {
+    font-size: 16px;
+}
+
+.courseCard .details {
+    padding: 10px 30px;
+}
+
+.course .title,
+.description {
+    margin: 20px 0;
+    padding-right: 120px;
+}

@@ -1,0 +1,23 @@
+.navbar .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.navbar h2 {
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar .navlist {
+    display: flex;
+}
+
+.navbar .navlist h4 {
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.navbar .welcome {
+    color: aqua;
+}

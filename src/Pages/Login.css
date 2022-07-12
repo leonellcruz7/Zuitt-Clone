@@ -1,0 +1,75 @@
+.login {
+    background-color: rgb(191, 203, 212);
+}
+
+.login .col2Con {
+    margin: 100px 0;
+    flex-basis: 80%;
+
+}
+
+.login .slogan {
+    margin: 20px 0;
+    line-height: 50px;
+    font-family: 'Bree Serif', serif;
+    font-size: 45px;
+}
+
+.login .applyBtn {
+    margin: 30px 0;
+}
+
+.login .card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 73px 19px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.login .card input {
+    padding: 10px 10px;
+    margin: 6px 0;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    outline: none;
+}
+
+.login .card input:focus-within {
+    box-shadow: 0px 0px 5px 3px rgba(29, 123, 167, 0.68);
+}
+
+.login .link {
+    color: rgb(13, 58, 126);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.login .loginBtn {
+    background-color: rgb(35, 125, 243);
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 20px 0;
+}
+
+.login .loginBtnInactive {
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 20px 0;
+}
+
+.login .createAcct {
+    background-color: rgb(102, 158, 94);
+    box-shadow: none;
+    margin: 0 50px;
+    border-radius: 5px;
+}
+
+.login .border {
+    height: 1px;
+    background-color: rgb(153, 153, 153);
+    margin: 30px 20px;
+}

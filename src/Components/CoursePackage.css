@@ -1,0 +1,32 @@
+.coursePackage {
+    background-color: rgb(193, 198, 202);
+    padding: 50px 0;
+}
+
+.coursePackage .row {
+    justify-content: start;
+    align-items: start;
+}
+
+.coursePackage .col2 {
+    justify-content: start;
+    align-items: start;
+}
+
+.coursePackage .col2con {
+
+    padding: 40px 100px;
+}
+
+.coursePackage .col2con h1 {
+    margin-bottom: 50px;
+    font-family: 'Bree Serif', serif;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.coursePackage .col2con p {
+    line-height: 30px;
+    color: rgb(75, 75, 75);
+    font-weight: 400;
+}

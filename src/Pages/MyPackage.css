@@ -1,0 +1,56 @@
+.mypackage {
+    background-color: #fff;
+}
+
+.mypackage h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.mypackage .desc {
+    margin-bottom: 30px;
+}
+
+.mypackage h4 {
+    font-size: 18px;
+    margin: 20px 0;
+
+}
+
+.mypackage p {
+    padding: 0 50px;
+}
+
+.mypackage .content {
+    margin: 50px 0;
+    padding: 40px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.mypackage img {
+    margin: 40px 0;
+    width: 25%;
+}
+
+.mypackage .col2 {}
+
+.mypackage .row {
+    align-items: start;
+}
+
+.mypackage .content2 {
+    flex-basis: 100%;
+    padding: 90px 20px;
+}
+
+.mypackage .col1 {
+    justify-content: start;
+}

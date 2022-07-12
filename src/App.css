@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@200;300;400;500;600&family=Slabo+27px&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 600;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+
+
+.lgCon {
+    width: 100%;
+}
+
+.mdCon {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.smCon {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.col1 {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col2 {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col3 {
+    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col4 {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col5 {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col6 {
+    flex-basis: 16%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 40px;
+    color: #fff;
+    background-color: rgb(167, 48, 88);
+    box-shadow: 3px 3px 0px -3px rgba(0, 0, 0, 0.91);
+    transition: .1s ease;
+}
+
+button:hover {
+    background-color: rgb(134, 36, 69);
+}
+
+button:active {
+    transform: scale(.97);
+}
+
+.inactive {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 40px;
+    color: #fff;
+    background-color: rgb(66, 66, 66);
+    box-shadow: 3px 3px 0px -3px rgba(0, 0, 0, 0.91);
+    transition: .1s ease;
+}
+
+.inactive:hover {
+    background-color: rgb(66, 66, 66);
+}
+
+.inactive:active {
+    transform: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #555;
+    font-weight: 400;
+}
+
+.mini-row {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divider {
+    height: 1px;
+    background-color: rgb(140, 157, 172);
+    width: 100%;
+    margin: 40px 0;
+}
+
+
+@media only screen and (max-width:1100px) {}
+
+
+@media only screen and (max-width:900px) {}
+
+@media only screen and (max-width:600px) {}

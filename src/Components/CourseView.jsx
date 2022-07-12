@@ -1,0 +1,49 @@
+import React from 'react'
+import { useParams } from 'react-router-dom'
+import './CourseView.css'
+
+export default function CourseView({ packageProp }) {
+    const courseId = useParams()
+    function enroll(e) {
+        e.preventDefault()
+
+        fetch('http://localhost:4000/users/enroll', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json',
+                Authorization: `Bearer ${localStorage.getItem('token')}`
+            },
+            body: JSON.stringify({
+                id: packageProp._id
+            })
+        }).then(res => res.json()).then(data => {
+            console.log(data)
+            if (localStorage.getItem('token') == null) {
+                alert('Please login first')
+            }
+            else {
+                alert(`success`)
+            }
+        })
+
+    }
+
+    return (
+
+        <div className="col2">
+            <div className="courseViewCard">
+                <div>
+                    <h1>{packageProp.name}</h1>
+                    <div className="divider"></div>
+                    <p>{packageProp.description}</p>s
+                    <h5>Price: ${packageProp.price}.00</h5>
+                </div>
+                <div>
+                    <button className='enrollBtn' onClick={enroll}>Enroll</button>
+                </div>
+            </div>
+        </div>
+
+
+    )
+}
