@@ -21,3 +21,23 @@
 .testimonial .usercol img {
     margin-right: 20px;
 }
+
+@media only screen and (max-width:660px) {
+    .testimonial .smCon {
+        width: 90%;
+    }
+
+    .testimonial .col2 {
+        flex-basis: 80%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .testimonial .smCon {
+        width: 100%;
+    }
+
+    .testimonial .col2 {
+        flex-basis: 90%;
+    }
+}

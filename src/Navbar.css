@@ -21,3 +21,76 @@
 .navbar .welcome {
     color: aqua;
 }
+
+.navbar .toggler {
+    display: none;
+}
+
+.navbar .mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .navbar .desktop {
+        display: none;
+    }
+
+    .navbar .toggler {
+        display: block;
+    }
+
+    .navbar .mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-color: rgb(22, 87, 104);
+        position: absolute;
+        right: 5%;
+        top: 7%;
+        padding: 20px 7px;
+        width: 50%;
+        border-radius: 10px;
+
+    }
+
+    .navbar .mobile .link {
+        color: #fff;
+    }
+
+    .navbar .mobile h4 {
+        margin: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .navbar .mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-color: rgb(22, 87, 104);
+        position: absolute;
+        right: 5%;
+        top: 7%;
+        padding: 20px 7px;
+        width: 80%;
+        border-radius: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .navbar .mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-color: rgb(22, 87, 104);
+        position: absolute;
+        right: 0;
+        top: 7%;
+        padding: 20px 7px;
+        width: 100%;
+        border-radius: 0px;
+
+    }
+
+}

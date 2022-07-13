@@ -76,7 +76,7 @@ export default function Login() {
 
                         </div>
                     </div>
-                    <div className="col3">
+                    <div className="col2">
                         <div className="col2Con">
                             <div className="card">
                                 <input type="email" placeholder='Email' value={email} onChange={e => setEmail(e.target.value)} />

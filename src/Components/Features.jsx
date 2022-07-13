@@ -12,28 +12,31 @@ export default function Features() {
         <div className="features">
             <div className="smCon">
                 <div className="row">
+
                     <div className="feature-col-wide">
-                        <h2 className='num'>300+ </h2>
-                        <h2>Employers Hired Our Bootcampers</h2>
+                        <h2 className='num'> </h2>
+                        <h2><span> 300+</span> Employers Hired Our Bootcampers</h2>
+                    </div>
+
+
+                    <div className="feature-col">
+                        <img src={cafe24} width='100%' />
                     </div>
                     <div className="feature-col">
-                        <img src={cafe24} width='70%' />
-                    </div>
-                    <div className="feature-col">
-                        <img src={cloudwalk} width='50%' />
+                        <img src={cloudwalk} width='70%' />
                     </div>
                     <div className="feature-col">
                         <img src={xurpas} width='100%' />
                     </div>
+
                 </div>
                 <div className="row">
                     <div className="border"></div>
                 </div>
                 <div className="row">
                     <div className="feature-col-wide">
-                        <h2>Featured by</h2>
-                        <h2 className='num'> 10+ </h2>
-                        <h2>Media</h2>
+                        <h2>Featured by <span> 10+ </span>Media</h2>
+
                     </div>
                     <div className="feature-col">
                         <img src={forbesjp} width='60%' />

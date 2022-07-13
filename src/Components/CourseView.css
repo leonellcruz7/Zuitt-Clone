@@ -3,7 +3,7 @@
     margin: 20px 10px;
     border-radius: 10px;
     background-color: #fff;
-    min-height: 400px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,4 +46,10 @@
 .courseViewCard .divider {
     margin: 20px 0;
     width: 70%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .courseView {
+        flex-basis: 90%;
+    }
 }

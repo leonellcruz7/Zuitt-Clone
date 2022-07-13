@@ -54,7 +54,7 @@ export default function CoursePackage() {
                             <p>{title.description}</p>
                         </div>
                     </div>
-                    <div className="col2">
+                    <div className="col2 pack">
                         {packages}
                     </div>
 

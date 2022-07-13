@@ -15,7 +15,7 @@
 
 .coursePackage .col2con {
 
-    padding: 40px 100px;
+    padding: 40px 10px;
 }
 
 .coursePackage .col2con h1 {
@@ -29,4 +29,59 @@
     line-height: 30px;
     color: rgb(75, 75, 75);
     font-weight: 400;
+}
+
+@media only screen and (max-width: 1700px) {}
+
+@media only screen and (max-width: 1550px) {
+    .coursePackage .smCon {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .coursePackage .col2con h1 {
+        margin-bottom: 50px;
+        font-family: 'Bree Serif', serif;
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .coursePackage .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coursePackage .col2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coursePackage .col2con h1 {
+        margin-bottom: 10px;
+        font-family: 'Bree Serif', serif;
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+
+    .coursePackage .col2con h1 {
+        margin-bottom: 10px;
+        font-family: 'Bree Serif', serif;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .coursePackage .smCon {
+        width: 100%;
+    }
+
+    .coursePackage .col2con {
+        padding: 0 30px;
+    }
 }

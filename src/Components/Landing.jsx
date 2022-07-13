@@ -13,7 +13,7 @@ export default function Landing() {
                     <div className="col2">
                         <div className="col2Con">
                             <h2>
-                                Coding BootCamp Made Affordable at <br />$1200
+                                Coding BootCamp <br />Made Affordable at $1200
                             </h2>
                             <p>
                                 Learn how to code in 2 months immersed into live interactive online interaction at the mose competitive price

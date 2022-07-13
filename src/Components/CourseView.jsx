@@ -30,12 +30,12 @@ export default function CourseView({ packageProp }) {
 
     return (
 
-        <div className="col2">
+        <div className="col2 courseView">
             <div className="courseViewCard">
-                <div>
+                <div className='courseContent'>
                     <h1>{packageProp.name}</h1>
                     <div className="divider"></div>
-                    <p>{packageProp.description}</p>s
+                    <p>{packageProp.description}</p>
                     <h5>Price: ${packageProp.price}.00</h5>
                 </div>
                 <div>

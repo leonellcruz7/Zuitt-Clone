@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 export default function CourseCard({ courseProp }) {
     const navigate = useNavigate()
     return (
-        <div className="courseCard">
+        <div className="coursecard">
             <div className="details">
                 <div className="title">
                     <h4>{courseProp.name}</h4>

@@ -28,14 +28,14 @@ export default function Courses() {
                         <h2>Our Curriculum</h2>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col2">
+                <div className="row toppart">
+                    <div className="col2 ">
                         <div className="content">
                             <p>Our curriculum has been improved through more than 100 batches to equip different types of students with the necessary web development skills to become a web developer in 2+ months</p>
                         </div>
                     </div>
                     <div className="col2 left">
-                        <img src={duration} width='60%' />
+                        <img className='duration' src={duration} width='60%' />
                     </div>
                 </div>
                 <div className="row">

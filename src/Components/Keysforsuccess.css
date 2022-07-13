@@ -24,3 +24,46 @@
 .keys .card img {
     margin: 30px 0;
 }
+
+@media only screen and (max-width:1350px) {
+    .keys .smCon {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+    .keys .card {
+        padding: 30px 20px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .keys .col4 {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .keys .card {
+        padding: 10px 10px;
+    }
+
+    .keys .smCon {
+        flex-basis: 100%;
+    }
+
+    .keys .card {
+        padding: 20px;
+        margin: 8px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: 300px;
+    }
+
+    .keys .col4 {
+        flex-basis: 90%;
+    }
+}

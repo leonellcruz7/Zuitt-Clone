@@ -75,3 +75,34 @@
 .register .terms {
     margin: 20px 0;
 }
+
+@media only screen and (max-width: 1000px) {
+    .register .smCon {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .register .col1Con {
+        flex-basis: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .register .col1Con {
+        flex-basis: 95%;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .register .col1Con2 {
+        background-color: aqua;
+        flex-basis: 90%;
+    }
+}

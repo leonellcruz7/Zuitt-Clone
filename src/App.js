@@ -11,6 +11,10 @@ import UserContext from './UserContext'
 import CourseView from './Components/CourseView'
 import CoursePackage from './Components/CoursePackage'
 import MyPackage from './Pages/MyPackage'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faBars)
 
 export default function App() {
   const [user, setUser] = useState({

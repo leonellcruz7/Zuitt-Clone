@@ -101,7 +101,7 @@ export default function Register() {
                             <input type="password" placeholder='Confirm Password' value={pass2} onChange={e => setPass2(e.target.value)} />
                         </div>
                     </div>
-                    <div className="col1">
+                    <div className="col1 check">
                         <div className="col1Con2">
                             <h6 className='box-title'>Educational Attainment *</h6>
                             <div className="radio">
