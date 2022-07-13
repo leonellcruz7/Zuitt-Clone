@@ -3,7 +3,7 @@ import './PackageCard.css'
 
 export default function PackageCard({ itemProp }) {
     return (
-        <div className="col3">
+        <div className="col3 slip">
             <div className="packCard">
                 <div className='card'>
                     <div><h4>{itemProp.name}</h4></div>

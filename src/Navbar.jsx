@@ -29,17 +29,17 @@ export default function Navbar() {
 
                     {toggler ?
                         <div className="navlist mobile">
-                            <h4><Link className='link' to='/'>Home</Link></h4>
-                            <h4><Link className='link' to='/courses'>Courses</Link></h4>
+                            <h4><Link className='link' to='/' onClick={e => setToggler(false)}>Home</Link></h4>
+                            <h4><Link className='link' to='/courses' onClick={e => setToggler(false)}>Courses</Link></h4>
                             {(user.name !== null) ?
-                                <h4><Link className='link' to='/logout'>Logout</Link></h4>
+                                <h4><Link className='link' to='/logout' onClick={e => setToggler(false)}>Logout</Link></h4>
                                 :
                                 <React.Fragment>
-                                    <h4><Link className='link' to='/login'>Login</Link></h4>
-                                    <h4><Link className='link' to='/register'>Register</Link></h4>
+                                    <h4><Link className='link' to='/login' onClick={e => setToggler(false)}>Login</Link></h4>
+                                    <h4><Link className='link' to='/register' onClick={e => setToggler(false)}>Register</Link></h4>
                                 </React.Fragment>
                             }
-                            {(user.name !== null) ? <h4 ><Link className='link' to='/my-package'>Welcome, {user.name}!</Link></h4 > : <h4 hidden></h4>}
+                            {(user.name !== null) ? <h4 ><Link className='link' to='/my-package' onClick={e => setToggler(false)}>Welcome, {user.name}!</Link></h4 > : <h4 hidden></h4>}
 
                         </div>
                         :

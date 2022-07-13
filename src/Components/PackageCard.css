@@ -25,3 +25,16 @@
     border-radius: 5px;
     box-shadow: none;
 }
+
+@media only screen and (max-width: 760px) {
+    .slip {
+        flex-basis: 90%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .slip {
+
+        width: 100%;
+    }
+}
